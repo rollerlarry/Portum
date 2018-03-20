@@ -1,0 +1,357 @@
+/**
+ * 1. Accent Color
+ * 2. Secondary Accent Color
+ * 3. Text Color
+ * 4. Header Text Color
+ * 5. Link Color
+ * 6. Footer Background Color
+ * 7. Footer Text Color
+ * 8. Footer Link Color
+ * 9. Hover Link Color
+ * 10. Footer Hoover link Color
+ */
+
+.dropdown li:hover {
+    background: %2$s;
+}
+
+.text-accent-color {
+    color: %1$s;
+}
+
+.text-accent-color-2 {
+    color: %2$s;
+}
+
+#custom-search-form{
+    border-color: %1$s;
+    background-color: %1$s;
+}
+
+#custom-search-form.focused  #custom-search-button {
+    color: %1$s;
+}
+
+.sticky .post-thumbnail:after {
+    color: %1$s;
+}
+
+body,
+.comment-metadata >  a,
+abbr[title]{
+    color: %3$s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+q,
+blockquote{
+    color: %4$s;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="color"],
+textarea,
+select{
+    color: %3$s;
+}
+
+a{
+    color: %5$s;
+}
+
+a:focus { color: %9$s; }
+a:hover { color: %9$s; }
+
+.widget_tag_cloud a,
+.tags-links a,
+a.btn {
+    border-color: %1$s;
+    background-color: %1$s;
+}
+
+.widget_tag_cloud a:hover,
+.tags-links a:hover,
+a.btn:focus,
+a.btn:hover {
+    border-color: %2$s;
+    background-color: %2$s;
+}
+
+.post-format{
+    color: %1$s;
+}
+
+.no-comments,
+.comment-awaiting-moderation,
+.author-bio-social a,
+.post-navigation .nav-subtitle,
+.page-links,
+.posted-on,
+.post-title a{
+    color: %4$s;
+}
+
+input[type="reset"],
+input[type="submit"],
+input[type="button"]{
+    border-color: %1$s;
+    background-color: %1$s;
+}
+
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+input[type="button"]:focus {
+    border-color: %2$s;
+    background-color: %2$s;
+}
+
+#wp-calendar th,
+#wp-calendar caption {
+    color: %1$s;
+}
+
+#wp-calendar  tbody td a{
+    background-color: %1$s;
+}
+
+#wp-calendar  tbody td a:hover{
+    background-color: %9$s;
+}
+
+#wp-calendar #prev a:before {
+    color: %1$s;
+}
+
+#wp-calendar #prev a:hover:before {
+    color: %9$s;
+}
+
+#wp-calendar #next a:before {
+    color: %1$s;
+}
+
+#wp-calendar #next a:hover:before {
+    color: %9$s;
+}
+
+.widget_rss .rss-date,
+.widget_rss cite 	{
+    color: %4$s;
+}
+
+.widget_search .search-submit {
+    color: %1$s;
+}
+
+.widget_search .search-submit:hover,
+.widget_search .search-submit:focus {
+    color: %9$s;
+}
+
+.widget_search .search-submit:active {
+    color: %4$s;
+}
+
+.mt_widget_about_me .author-bio:before {
+    border-top-color: %5$s;
+}
+
+.mt_widget_about_me .author-bio .about-me-social a {
+    color: %4$s;
+}
+
+.post-slider .slick-dots li a:hover {
+    color: %9$s;
+}
+
+.post-slider .slick-dots li.slick-active a:before {
+    border-top-color: %2$s;
+}
+
+.pager-slider li:first-child::before,
+.pager-slider li:last-child::before,
+.portfolio-grid-item .action .zoom,
+.portfolio-grid-item .action .link,
+.pager-slider h6 {
+    background: %1$s;
+}
+.pager-slider li:first-child:hover::before,
+.pager-slider li:last-child:hover::before,
+.pager-slider li.active:before{
+    background: %2$s !important;
+}
+
+.portfolio-grid-item .action .zoom:hover,
+.portfolio-grid-item .action .link:hover,
+.pager-slider li:hover h6, .pager-slider li.active h6:hover, .pager-slider li.active h6{
+    background: %2$s;
+}
+
+/* 
+	Testimonials
+*/
+
+.testimonial:hover {
+	background: %2$s;
+}
+
+.testimonial a {
+	color: %1$s;
+}
+
+
+/* 
+	Blog
+*/
+
+.blog-news-item .news-category strong {
+	background: %1$s;
+}
+
+.blog-news-item .news-category strong:hover {
+	background: %2$s;
+}
+
+/* 
+	Services
+*/
+.services-item:hover::before{
+    background: %2$s;
+}
+
+.services-item span {
+	color: %1$s;
+}
+
+.services-item:hover span, .services-item:hover i{
+    color: %2$s;
+}
+
+/* 
+	Pricing
+*/
+
+.pricing-item .plan sup,
+.pricing-item .plan sub,
+.pricing-item .plan strong{
+    color: %1$s;
+}
+
+.pricing-item .details {
+	background-color: %1$s;
+}
+
+.pricing-item:hover .plan sup,
+.pricing-item:hover .plan sub,
+.pricing-item:hover .plan strong,
+.pricing-item:hover ul span {
+	color: %2$s;
+}
+
+.pricing-item:hover .details{
+    background-color: %2$s;
+}
+
+/*
+.pricing-item:hover .btn {
+	background-color: %2$s;
+	border-color: %2$s;
+}
+
+.pricing-item:hover .btn:hover {
+	background-color: %1$s;
+	border-color: %1$s;
+}
+*/
+
+
+.section-video .info-area p strong{
+    color: %2$s;
+}
+
+.team-members-item:hover .overlay{
+    background: %2$s;
+    opacity:.65;
+}
+
+.btn-contrast,
+a.btn-contrast{
+    background-color: %2$s;
+}
+
+.btn-contrast:hover,
+a.btn-contrast:hover{
+    background-color: %1$s;
+}
+
+.contact-details-item h5{
+    color: %1$s;
+}
+
+#footer{
+    background-color: %6$s;
+    color : %7$s;
+}
+
+#footer a{
+    color: %8$s
+}
+
+#footer a:hover{
+    color: %10$s
+}
+
+.ewf-counter__icon i {
+    color: %1$s;
+}
+
+.ewf-counter__standard,
+.ewf-counter__odometer,
+.ewf-counter__symbol {
+    color: %3$s;
+}
+
+.ewf-counter__title {
+    color: %4$s;
+}
+
+.ewf-progress__bar-liniar-wrap {
+    background-color: %1$s;
+}
+
+.ewf-progress__bar-liniar {
+    background-color: %2$s;
+}
+
+.ewf-progress--alternative-modern .ewf-progress__bar-liniar-wrap:after {
+    background: %2$s;
+}
+
+.ewf-pie__icon,
+.ewf-pie__percent {
+    color: %1$s;
+}
+
+.ewf-partner-slider__pager .slick-dots li.slick-active button {
+    background-color: %1$s;
+}
